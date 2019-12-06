@@ -1,0 +1,476 @@
+/*--------------------------------basic stuff------------------------------*/
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+}
+
+a:hover, a:active {
+    color: #3385a6;
+}
+
+h1 {
+    margin: 0;   
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif, Helvetica;
+    font-weight: 500;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif, Helvetica;
+    color: #000000; 
+    text-align: left; 
+    margin: 0 auto;
+    width: 100%;
+}
+
+section {
+	width: auto;
+    height: 100vh;
+    position: relative;
+}
+
+.part {
+    display: block;
+    margin: 0 auto;   
+}
+
+.text-left-special {
+    font-size: 12pt; 
+    line-height: 22pt;
+    font-weight: 300;
+    text-align: left;
+    margin: auto;
+}
+
+.text {
+    font-size: 12pt; 
+    line-height: 22pt;
+    font-weight: 300;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.text-left {
+    font-size: 12pt; 
+    line-height: 22pt;
+    font-weight: 300;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.textwhite {
+    font-size: 12pt; 
+    line-height: 22pt;
+    font-weight: 300;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+.caption {
+    font-size: 12pt; 
+    line-height: 22pt;
+    font-weight: 300;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#click {
+    font-size: 14pt;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.head {
+    font-size: 22pt;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif, Helvetica;
+    text-align: center;
+}
+
+h1 {
+    font-size: 22pt;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif, Helvetica;
+}
+
+.headwhite {
+    font-size: 22pt;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif, Helvetica;
+    text-align: center;
+    color: #fff;
+}
+
+#designmode {
+    width: 600px;
+}
+
+/*--------------------------------navigation-------------------------------*/
+
+#logo-nav {
+    width: 80px;
+}
+
+#navbar {
+    width: 100%;  
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #000;
+    padding: 10px 0;
+    margin-bottom: 40px;
+    z-index: 10;
+}
+
+nav a:hover, a:active {
+    transition: .5s;
+    color: #3385a6;
+}
+
+ul {
+    font-size: 12pt;
+    text-align: center;  
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    padding: 0 2%; 
+    display: inline;
+    vertical-align: middle;
+}
+
+.links {
+    position: absolute;
+}
+
+nav ul ul li {
+	float: none;
+    display: block;
+    text-align: center;
+}
+
+
+nav ul ul a {
+	padding: 0;
+    margin: 0;
+    font-size: 10pt;
+    display: block;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+/*--------------------------------index section----------------------------*/
+
+
+#logo {
+    width: 250px;
+    padding: 20px 0;
+}
+
+#slider-home-content {
+    padding-top: 160px;
+    text-align: center;
+}
+
+#titlehead {
+    font-size: 30pt;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif, Helvetica;
+    color: #000; 
+}
+
+#enter {
+    font-size: 14pt;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    background-color: #280d3c;
+    padding: 15px;
+}
+
+#enter2 {
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+#enter2 a {
+    color: #ffffff;
+    opacity: 1;
+}
+
+#enter2 a:hover, a:active {
+    color: #ffffff; 
+    background-color: #522982;
+    transition: .5s;
+}
+
+/* ------ sliders ------------------ */
+
+#slider-home {
+    background: #000 url(../media/background.jpg) no-repeat left top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: left;
+    height: 700px;
+}
+
+#slider-about {
+    background: #000 url(../media/staff.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: left;
+    height: 500px;
+}
+
+#slider-contact {
+    background: #000 url(../media/contact.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: left;
+    height: 500px;
+}
+
+#slider-parents {
+    background: #000 url(../media/parents.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: left;
+    height: 500px;
+}
+
+#slider-academics {
+    background: #000 url(../media/academics.jpg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: left;
+    height: 500px;
+}
+
+#slider-stem {
+    background: #000 url(../media/stem.jpeg) no-repeat center top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: left;
+    height: 500px;
+}
+
+/* --------------- content / background colors --------- */
+
+.content {
+    padding: 30px 3%;
+}
+
+.purple {
+    background: rgb(48,13,91);
+    background: linear-gradient(0deg, rgba(48,13,91,1) 0%, rgba(82,41,130,1) 100%);
+}
+
+.teal {
+    background: #000 url(../media/teal-bg.jpg) no-repeat left top;
+    background-attachment: fixed;
+    background-size: cover;
+    position: left;
+}
+
+.grades {
+    background: #000 url(../media/grades.jpg) no-repeat left top;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 160px;
+    padding-top: 70px;
+}
+
+.volunteer {
+    background: #000 url(../media/volunteer.jpg) no-repeat left top;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 70px;
+    height: 160px;
+}
+
+/* ---- news / ads -------------------------- */
+
+.img-ad {
+    width: 350px;
+}
+
+.advertisements {
+    text-align: center;
+}
+
+.news-link-style{
+    color: #000;
+    text-decoration: underline;
+}
+
+.news-link a:hover {
+    color: #3385a6;
+    transition: 0.3s;
+}
+
+.news-link {
+    padding: 20px 3%;
+}
+
+/*--------------------------------contact area-----------------------------*/
+
+input, textarea {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Roboto', sans-serif, Helvetica;
+    font-size: 16px;
+    padding: 5px;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.label {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+#msg {
+    width: 600px;
+    height: 200px;
+}
+
+#form-button {
+    margin-top: 10px;
+}
+
+/*--------------------------------content-----------------------------------*/
+
+.button-style {
+    font-size: 12pt;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    background-color: #280d3c;
+    padding: 15px;
+}
+
+.button-left {
+    display: block;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.button-left a {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.button-left a:hover, a:active {
+    color: #fff; 
+    background-color: #522982;
+    transition: .5s;
+}
+
+.special {
+    padding: 0 3%;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.button a {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.button a:hover, a:active {
+    color: #fff; 
+    background-color: #522982;
+    transition: .5s;
+}
+
+.icon {
+    width: 40px;
+    padding: 10px 0;
+}
+ 
+.sponsor {
+    width: 900px;
+    padding: 20px 30px 0px 30px;
+}
+
+/* ------------------------ columns ------------------------ */
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.three-column {
+    width: 100%;
+    display: inline-block;
+}
+
+.two-column {
+    width: 100%;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.advertisements {
+    float: left;
+    width: 33.33%;
+}
+
+.news {
+    float: left;
+    width: 66.66%;
+}
+
+/*--------------------------------footer-----------------------------------*/
+
+footer {
+    display: block;
+    color: #fff;
+    background: #0f0f0f;
+    font-family: 'Roboto', sans-serif, Helvetica;
+    padding: 20px 0 20px 20px; 
+    font-size: 14px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+
+}
